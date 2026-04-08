@@ -13,7 +13,7 @@ public class MovieData {
             movies = new ArrayList<>();
 
             movies.add(new Movie("The Shawshank Redemption", "Drama", 9.3,
-                    R.drawable.poster_placeholder, "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency. A story of hope and perseverance.",
+                    R.drawable.shawshank, "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency. A story of hope and perseverance.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Tim Robbins", R.drawable.actor_placeholder),
                             new Actor("Morgan Freeman", R.drawable.actor_placeholder),
@@ -23,7 +23,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("The Godfather", "Crime", 9.2,
-                    R.drawable.poster_placeholder, "The aging patriarch of an organized crime dynasty transfers control to his reluctant son. A masterpiece of American cinema.",
+                    R.drawable.godfather, "The aging patriarch of an organized crime dynasty transfers control to his reluctant son. A masterpiece of American cinema.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Marlon Brando", R.drawable.actor_placeholder),
                             new Actor("Al Pacino", R.drawable.actor_placeholder),
@@ -33,7 +33,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("The Dark Knight", "Action", 9.0,
-                    R.drawable.poster_placeholder, "Batman faces the Joker, a criminal mastermind who wants to plunge Gotham into anarchy. An epic superhero film with deep themes.",
+                    R.drawable.dark_knight, "Batman faces the Joker, a criminal mastermind who wants to plunge Gotham into anarchy. An epic superhero film with deep themes.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Christian Bale", R.drawable.actor_placeholder),
                             new Actor("Heath Ledger", R.drawable.actor_placeholder),
@@ -43,7 +43,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("Pulp Fiction", "Crime", 8.9,
-                    R.drawable.poster_placeholder, "The lives of two mob hitmen, a boxer, and a pair of bandits intertwine in four tales of violence and redemption.",
+                    R.drawable.pulp_, "The lives of two mob hitmen, a boxer, and a pair of bandits intertwine in four tales of violence and redemption.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("John Travolta", R.drawable.actor_placeholder),
                             new Actor("Uma Thurman", R.drawable.actor_placeholder),
@@ -53,7 +53,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("Forrest Gump", "Drama", 8.8,
-                    R.drawable.poster_placeholder, "The presidencies of Kennedy and Johnson, Vietnam, Watergate, and other history unfold through the perspective of an Alabama man.",
+                    R.drawable.forestg, "The presidencies of Kennedy and Johnson, Vietnam, Watergate, and other history unfold through the perspective of an Alabama man.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Tom Hanks", R.drawable.actor_placeholder),
                             new Actor("Robin Wright", R.drawable.actor_placeholder),
@@ -63,7 +63,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("Inception", "Sci-Fi", 8.8,
-                    R.drawable.poster_placeholder, "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into a CEO's mind.",
+                    R.drawable.inception, "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into a CEO's mind.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Leonardo DiCaprio", R.drawable.actor_placeholder),
                             new Actor("Joseph Gordon-Levitt", R.drawable.actor_placeholder),
@@ -73,7 +73,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("The Matrix", "Sci-Fi", 8.7,
-                    R.drawable.poster_placeholder, "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+                    R.drawable.matrix, "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Keanu Reeves", R.drawable.actor_placeholder),
                             new Actor("Laurence Fishburne", R.drawable.actor_placeholder),
@@ -83,7 +83,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("Goodfellas", "Crime", 8.7,
-                    R.drawable.poster_placeholder, "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen and his partners Jimmy and Tommy.",
+                    R.drawable.goodfellas, "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen and his partners Jimmy and Tommy.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Ray Liotta", R.drawable.actor_placeholder),
                             new Actor("Robert De Niro", R.drawable.actor_placeholder),
@@ -93,7 +93,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("Interstellar", "Sci-Fi", 8.6,
-                    R.drawable.poster_placeholder, "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+                    R.drawable.interstellar, "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Matthew McConaughey", R.drawable.actor_placeholder),
                             new Actor("Anne Hathaway", R.drawable.actor_placeholder),
@@ -103,7 +103,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("Fight Club", "Drama", 8.8,
-                    R.drawable.poster_placeholder, "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into something much more.",
+                    R.drawable.fightclub, "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into something much more.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Brad Pitt", R.drawable.actor_placeholder),
                             new Actor("Edward Norton", R.drawable.actor_placeholder),
@@ -113,7 +113,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("The Silence of the Lambs", "Thriller", 8.6,
-                    R.drawable.poster_placeholder, "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to catch another serial killer.",
+                    R.drawable.silence, "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to catch another serial killer.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Jodie Foster", R.drawable.actor_placeholder),
                             new Actor("Anthony Hopkins", R.drawable.actor_placeholder),
@@ -123,7 +123,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("Schindler's List", "History", 8.9,
-                    R.drawable.poster_placeholder, "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce.",
+                    R.drawable.schindlers, "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Liam Neeson", R.drawable.actor_placeholder),
                             new Actor("Ben Kingsley", R.drawable.actor_placeholder),
@@ -133,7 +133,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("The Lord of the Rings", "Fantasy", 8.9,
-                    R.drawable.poster_placeholder, "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth.",
+                    R.drawable.poster_lotr, "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Elijah Wood", R.drawable.actor_placeholder),
                             new Actor("Ian McKellen", R.drawable.actor_placeholder),
@@ -143,7 +143,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("Gladiator", "Action", 8.5,
-                    R.drawable.poster_placeholder, "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him to slavery.",
+                    R.drawable.gladiator, "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him to slavery.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Russell Crowe", R.drawable.actor_placeholder),
                             new Actor("Joaquin Phoenix", R.drawable.actor_placeholder),
@@ -153,7 +153,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("The Lion King", "Animation", 8.5,
-                    R.drawable.poster_placeholder, "Lion prince Simba and his father are targeted by his treacherous uncle, who wants to ascend the throne himself.",
+                    R.drawable.lion, "Lion prince Simba and his father are targeted by his treacherous uncle, who wants to ascend the throne himself.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Matthew Broderick", R.drawable.actor_placeholder),
                             new Actor("Jeremy Irons", R.drawable.actor_placeholder),
@@ -163,7 +163,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("Titanic", "Romance", 7.9,
-                    R.drawable.poster_placeholder, "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious ill-fated R.M.S. Titanic.",
+                    R.drawable.titanic, "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious ill-fated R.M.S. Titanic.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Leonardo DiCaprio", R.drawable.actor_placeholder),
                             new Actor("Kate Winslet", R.drawable.actor_placeholder),
@@ -173,7 +173,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("Avengers: Endgame", "Action", 8.4,
-                    R.drawable.poster_placeholder, "After the devastating events of Infinity War, the Avengers assemble once more to reverse Thanos' actions and restore balance.",
+                    R.drawable.endgame_, "After the devastating events of Infinity War, the Avengers assemble once more to reverse Thanos' actions and restore balance.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Robert Downey Jr.", R.drawable.actor_placeholder),
                             new Actor("Chris Evans", R.drawable.actor_placeholder),
@@ -183,7 +183,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("Joker", "Drama", 8.4,
-                    R.drawable.poster_placeholder, "A mentally troubled stand-up comedian embarks on a downward spiral that leads to the creation of an iconic villain.",
+                    R.drawable.joker, "A mentally troubled stand-up comedian embarks on a downward spiral that leads to the creation of an iconic villain.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Joaquin Phoenix", R.drawable.actor_placeholder),
                             new Actor("Robert De Niro", R.drawable.actor_placeholder),
@@ -193,7 +193,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("Parasite", "Thriller", 8.5,
-                    R.drawable.poster_placeholder, "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+                    R.drawable.parasite, "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Song Kang-ho", R.drawable.actor_placeholder),
                             new Actor("Lee Sun-kyun", R.drawable.actor_placeholder),
@@ -203,7 +203,7 @@ public class MovieData {
                     ))));
 
             movies.add(new Movie("Whiplash", "Drama", 8.5,
-                    R.drawable.poster_placeholder, "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing.",
+                    R.drawable.whiplash, "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing.",
                     new ArrayList<>(Arrays.asList(
                             new Actor("Miles Teller", R.drawable.actor_placeholder),
                             new Actor("J.K. Simmons", R.drawable.actor_placeholder),

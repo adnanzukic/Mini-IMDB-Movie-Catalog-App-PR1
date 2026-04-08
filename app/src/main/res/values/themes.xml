@@ -1,8 +1,10 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.MiniIMDBMovieCatalogAppPR1" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<resources>
+    <style name="Base.Theme.MiniIMDBMovieCatalogAppPR1" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">#1976D2</item>
+        <item name="colorPrimaryVariant">#004BA0</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#F57C00</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
     </style>
 
     <style name="Theme.MiniIMDBMovieCatalogAppPR1" parent="Base.Theme.MiniIMDBMovieCatalogAppPR1" />
